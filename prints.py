@@ -18,3 +18,7 @@ def print_menu(title, menu_options, exit_msg):
     for index in range(len(menu_options)):
         print("\t" + f"({index + 1}) {menu_options[index]}")
     print("\t" + f"({0}) {exit_msg}")
+
+
+def print_results(result, label):
+    
